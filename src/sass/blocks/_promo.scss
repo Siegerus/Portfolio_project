@@ -1,0 +1,33 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background: url('../img/bg/bg_girl.jpg') (50%/cover) no-repeat; // задаём объединённо с позиционированием. Фон будет смещаться на 50%
+    padding-top: 206px;
+    &__subtitle {
+        padding-left: 10px;
+        position: relative;
+        @include before_circle;
+        z-index: 2;
+    }
+    &__title {
+        margin-top: 10px;
+        width: 500px;
+    }
+    &__btns {
+        margin-top: 25px;
+        display: flex;
+        width: 240px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__link {
+        color:#000000;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        &:hover {
+            color:#000000;
+            text-decoration: none;
+        }
+    }
+}
