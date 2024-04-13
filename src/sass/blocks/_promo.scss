@@ -1,7 +1,8 @@
 .promo {
     min-height: 100vh;
     position: relative;
-    background: url('../img/bg/bg_girl.jpg') (50%/cover) no-repeat; // задаём объединённо с позиционированием. Фон будет смещаться на 50%
+    background: url('../../img/IMG_20230908_125249.jpg') no-repeat (center 65%/cover); // задаём объединённо с позиционированием. Фон будет смещаться на 50%
+    /* background-position: center 65%; */
     padding-top: 206px;
     &__subtitle {
         padding-left: 10px;
