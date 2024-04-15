@@ -7,14 +7,18 @@
         grid-template-rows: repeat(2, minmax(270px, auto));
         grid-auto-columns: 270px;
         grid-auto-rows: 270px;
-        column-gap: 13px;
-        row-gap: 13px;
+        gap: 13px;
+
     }
     &__block {
         border: 1px solid;
         padding: 30px 30px 25px 30px;
     }
     &__icon {
+        display: flex;
+        height: 65px;
+        justify-content: flex-start;
+        align-items: center;
         img {
             max-width: 100%;
             max-height: 100%;
