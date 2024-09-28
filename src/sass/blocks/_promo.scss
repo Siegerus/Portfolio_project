@@ -1,7 +1,7 @@
 .promo {
     min-height: 100vh;
     position: relative;
-    background: url('../img/IMG_20230908_125249.jpg') no-repeat (center 65%/cover);
+    background: linear-gradient(270deg, #8e99ea 0%, #7688f0 72.09%, #81cced 100%);
     background-position: center 69%;
     padding-top: 206px;
 
@@ -30,6 +30,7 @@
         font-weight: 700;
         font-size: 14px;
         line-height: 24px;
+        
         &:hover {
             color:#000000;
             text-decoration: none;
